@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="relative w-full min-h-[70vh] flex flex-col justify-end pb-32">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80")' }}
+          style={{ backgroundImage: 'url("https://img.magnific.com/free-photo/beautiful-outdoor-landscape-sea-beach-with-umbrella-chair_74190-9974.jpg?t=st=1784532816~exp=1784536416~hmac=74c37f80fba045d2068ad6b05033e54703b8bfda1227ff4bb90dd30003e38b3f&w=1060")' }}
         />
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40" />

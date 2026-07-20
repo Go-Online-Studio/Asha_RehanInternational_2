@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 const categories = [
   {
     title: 'Gazebos & Umbrellas',
-    image: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80',
+    image: '/images/homeProductDesc1.avif',
     link: '/products/gazebos-umbrellas'
   },
   {
     title: 'Retractable Awnings',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
+    image: '/images/homeProductDesc2.avif',
     link: '/products/retractable-awnings'
   },
   {
     title: 'Glazed & Fabric Canopies',
-    image: 'https://images.unsplash.com/photo-1599505877666-8975ed3527e0?auto=format&fit=crop&q=80',
+    image: '/images/homeProductDesc3.avif',
     link: '/products/glazed-canopies'
   },
   {
     title: 'Tensile Membranes',
-    image: 'https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&q=80',
+    image: '/images/homeProductDesc4.avif',
     link: '/products/tensile-membranes'
   }
 ];

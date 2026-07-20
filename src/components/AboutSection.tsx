@@ -21,7 +21,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="aspect-[4/3] overflow-hidden group">
               <img 
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80" 
+                src="/images/ShortInfo.webp" 
                 alt="Alba Butterfly Pergola" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />

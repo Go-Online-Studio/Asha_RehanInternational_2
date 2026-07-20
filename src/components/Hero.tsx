@@ -9,26 +9,26 @@ const slides = [
   {
     category: 'Product',
     title: 'Retractable Awnings: Precision folding-arm motorized tension frames',
-    desktopImage: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=1920&q=80',
-    mobileImage: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=768&h=1024&q=80'
+    desktopImage: '/images/Banner1.avif',
+    mobileImage: '/images/BannerMob1.avif'
   },
   {
     category: 'Product',
     title: 'Glazed & Fabric Canopies: Sculpted cantilever entrance protective shields',
-    desktopImage: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1920&q=80',
-    mobileImage: 'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=768&h=1024&q=80'
+    desktopImage: '/images/Banner2.avif',
+    mobileImage: '/images/BannerMob2.avif'
   },
   {
     category: 'Project',
     title: 'Tensile Membranes: Advanced hyperbolic engineered sailing shapes',
-    desktopImage: 'https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&w=1920&q=80',
-    mobileImage: 'https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&w=768&h=1024&q=80'
+    desktopImage: '/images/Banner3.avif',
+    mobileImage: '/images/BannerMob3.avif'
   },
   {
     category: 'Solution',
     title: 'Gazebos & Umbrellas: Luxury garden frameworks & side-pole resort sails',
-    desktopImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80',
-    mobileImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=768&h=1024&q=80'
+    desktopImage: '/images/Banner4.avif',
+    mobileImage: '/images/BannerMob4.avif'
   }
 ];
 
