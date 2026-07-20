@@ -8,7 +8,7 @@ export const blogPosts = [
     excerpt: 'Exploring how lightweight membrane structures are redefining modern architectural landscapes and offering sustainable shading solutions.',
     date: 'August 12, 2024',
     category: 'Architecture',
-    image: 'https://images.unsplash.com/photo-1506527716155-27a909fc72e8?auto=format&fit=crop&q=80',
+    image: '/images/NewsBlog.webp',
   },
   {
     id: 'choosing-right-awning-fabric',
@@ -16,7 +16,7 @@ export const blogPosts = [
     excerpt: 'A comprehensive guide to selecting between acrylic, polyester, and PVC-coated fabrics for maximum durability and UV protection.',
     date: 'July 28, 2024',
     category: 'Materials',
-    image: 'https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&q=80',
+    image: '/images/NewsBlog.webp',
   },
   {
     id: 'bioclimatic-pergolas-explained',
@@ -24,7 +24,7 @@ export const blogPosts = [
     excerpt: 'Understanding the mechanics behind adjustable louvered roofs and how they create microclimates for year-round outdoor comfort.',
     date: 'July 15, 2024',
     category: 'Technology',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80',
+    image: '/images/NewsBlog.webp',
   },
   {
     id: 'wind-resistance-standards',
@@ -32,7 +32,7 @@ export const blogPosts = [
     excerpt: 'Why the Beaufort scale matters when engineering canopies and how Asha Industries ensures structural integrity during extreme weather.',
     date: 'June 30, 2024',
     category: 'Engineering',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80',
+    image: '/images/NewsBlog.webp',
   },
   {
     id: 'luxury-resort-shading-trends',
@@ -40,7 +40,7 @@ export const blogPosts = [
     excerpt: 'From minimalist side-pole umbrellas to expansive stretch tents, discover what high-end hospitality venues are adopting this year.',
     date: 'June 10, 2024',
     category: 'Design Trends',
-    image: 'https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&q=80',
+    image: '/images/NewsBlog.webp',
   },
 ];
 

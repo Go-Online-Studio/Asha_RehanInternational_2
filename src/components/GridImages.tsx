@@ -10,10 +10,10 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
 export default function GridImages() {
   const images = [
-    "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1599505877666-8975ed3527e0?auto=format&fit=crop&q=80"
+    "/images/Product1.webp",
+    "/images/Product2.webp",
+    "/images/Product3.webp",
+    "/images/Product4.webp"
   ];
 
   useEffect(() => {

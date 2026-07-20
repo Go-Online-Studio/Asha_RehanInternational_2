@@ -17,7 +17,7 @@ export default function About() {
       {/* Big Hero Image */}
       <div className="w-full h-[60vh] md:h-[80vh] overflow-hidden relative">
         <img 
-          src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80" 
+          src="/images/Banner4.avif" 
           alt="Architectural Shading" 
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
         />
@@ -32,7 +32,7 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mb-1">
         <div className="aspect-[4/3] overflow-hidden relative group">
            <img 
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80" 
+              src="/images/Product3.webp" 
               alt="Engineering detail" 
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
             />
@@ -42,7 +42,7 @@ export default function About() {
         </div>
         <div className="aspect-[4/3] overflow-hidden relative group">
            <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80" 
+              src="/images/Product4.webp" 
               alt="Manufacturing" 
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
             />
@@ -65,7 +65,7 @@ export default function About() {
       {/* Another big image */}
       <div className="w-full h-[50vh] overflow-hidden mb-16 relative">
         <img 
-          src="https://images.unsplash.com/photo-1599505877666-8975ed3527e0?auto=format&fit=crop&q=80" 
+          src="/images/homeProductDesc4.avif" 
           alt="Outdoor lifestyle" 
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
         />
