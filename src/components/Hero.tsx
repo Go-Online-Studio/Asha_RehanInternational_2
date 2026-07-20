@@ -70,7 +70,7 @@ export default function Hero() {
                 />
               </picture>
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" /> 
 
               {/* Content - Bottom Aligned */}
               <div className="relative w-full pb-20">
