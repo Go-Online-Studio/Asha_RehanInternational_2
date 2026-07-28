@@ -7,7 +7,7 @@ export default function FAQ() {
       {/* Hero Image for FAQ */}
       <div className="w-full h-[50vh] md:h-[60vh] overflow-hidden mb-12 relative">
         <img 
-          src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80" 
+          src="/images/BannerFAQ.webp" 
           alt="Outdoor lounge support" 
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
         />

@@ -1,7 +1,40 @@
 import React from 'react';
 
 const partners = [
-  "Foster + Partners", "Zaha Hadid Architects", "Larsen & Toubro", "Taj Hotels", "Reliance Industries", "Adani Realty", "Oberoi Group", "Lodha"
+  "/images/Partners/Alembic.png",
+  "/images/Partners/Amazon.png",
+  "/images/Partners/Arti_Industries.png",
+  "/images/Partners/Cairn.png",
+  "/images/Partners/CovestroPittsburghRegionalScienceAndEngineeringFair.png",
+  "/images/Partners/DCM_SHRIRAM.png",
+  "/images/Partners/DEEPAK_NITRITE.png",
+  "/images/Partners/DeepakFertilisersAndPetrochemicalsCorporationLimited.png",
+  "/images/Partners/DeepakFoundation.png",
+  "/images/Partners/DiaminesQualityDriven.png",
+  "/images/Partners/ERDA.png",
+  "/images/Partners/Elecon.png",
+  "/images/Partners/GLS_university.png",
+  "/images/Partners/Godrej.png",
+  "/images/Partners/Gujarat_Tourism.png",
+  "/images/Partners/GulbrandsenPuertoRico.png",
+  "/images/Partners/HeeruFoundation.png",
+  "/images/Partners/Indutch_COMPOSITES_TECHNOLOGY.png",
+  "/images/Partners/JUBILANT_LIFESCIENCES.png",
+  "/images/Partners/MORRIS_GARAGES.png",
+  "/images/Partners/NETAFIM.png",
+  "/images/Partners/PiramalGloss.png",
+  "/images/Partners/Reliance.png",
+  "/images/Partners/RoyalEnfield.png",
+  "/images/Partners/SHV_Energy.png",
+  "/images/Partners/SRF.png",
+  "/images/Partners/SchottBorall.png",
+  "/images/Partners/ShivaPharmachem.png",
+  "/images/Partners/Süd-Chemie.png",
+  "/images/Partners/TML.png",
+  "/images/Partners/Technotrans.png",
+  "/images/Partners/Vedanta.png",
+  "/images/Partners/Volatas_Tata.png",
+  "/images/Partners/Zydus.png"
 ];
 
 export default function Partners() {
@@ -13,21 +46,27 @@ export default function Partners() {
         </h3>
       </div>
       
-      <div className="relative flex overflow-x-hidden group">
-        <div className="animate-marquee whitespace-nowrap flex items-center">
-          {[...partners, ...partners].map((partner, index) => (
-            <span 
+      <div className="flex overflow-hidden group">
+        <div className="animate-marquee flex items-center whitespace-nowrap shrink-0">
+          {partners.map((partner, index) => (
+            <img 
               key={index} 
-              className="mx-12 text-2xl md:text-3xl font-serif text-brand-charcoal/30 hover:text-brand-blue transition-colors duration-300"
-            >
-              {partner}
-            </span>
+              src={partner}
+              alt="Partner logo"
+              className="mx-8 h-12 md:h-20 object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+            />
           ))}
         </div>
         
-        <div className="absolute top-0 animate-marquee whitespace-nowrap flex items-center" style={{ animationDelay: '-15s' }}>
-          {/* This second block ensures a seamless loop depending on width, but the tailwind approach duplicates it enough times.
-              To be safe and clean, we'll just rely on the first block with duplicated content and a single keyframe. */}
+        <div className="animate-marquee flex items-center whitespace-nowrap shrink-0" aria-hidden="true">
+          {partners.map((partner, index) => (
+            <img 
+              key={`dup-${index}`} 
+              src={partner}
+              alt="Partner logo"
+              className="mx-8 h-12 md:h-20 object-contain opacity-50 hover:opacity-100 transition-opacity duration-300"
+            />
+          ))}
         </div>
       </div>
     </section>

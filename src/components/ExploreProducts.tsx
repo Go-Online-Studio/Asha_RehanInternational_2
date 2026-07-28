@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 const categories = [
   {
     title: 'Gazebos & Umbrellas',
-    image: '/images/homeProductDesc1.avif',
+    image: '/images/homeProductDesc1.webp',
     link: '/products/gazebos-umbrellas'
   },
   {
     title: 'Retractable Awnings',
-    image: '/images/homeProductDesc2.avif',
+    image: '/images/homeProductDesc2.webp',
     link: '/products/retractable-awnings'
   },
   {
     title: 'Glazed & Fabric Canopies',
-    image: '/images/homeProductDesc3.avif',
+    image: '/images/homeProductDesc3.webp',
     link: '/products/glazed-canopies'
   },
   {
     title: 'Tensile Membranes',
-    image: '/images/homeProductDesc4.avif',
+    image: '/images/homeProductDesc4.webp',
     link: '/products/tensile-membranes'
   }
 ];

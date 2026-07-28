@@ -10,10 +10,22 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
 export default function GridImages() {
   const images = [
-    "/images/Product1.webp",
-    "/images/Product2.webp",
-    "/images/Product3.webp",
-    "/images/Product4.webp"
+    {
+      thumb: "/images/Product1.webp",
+      main: "/images/ProductMain1.jpg"
+    },
+    {
+      thumb: "/images/Product2.webp",
+      main: "/images/ProductMain2.webp"
+    },
+    {
+      thumb: "/images/Product3.webp",
+      main: "/images/ProductMain3.webp"
+    },
+    {
+      thumb: "/images/Product4.webp",
+      main: "/images/ProductMain4.jpg"
+    }
   ];
 
   useEffect(() => {
@@ -43,16 +55,16 @@ export default function GridImages() {
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
-          className="w-full"
+          className="w-full mobile-hide-nav"
         >
-          {images.map((src, idx) => (
+          {images.map((item, idx) => (
             <SwiperSlide key={idx}>
               <a 
                 data-fancybox="gallery" 
-                href={src} 
+                href={item.main} 
                 className="block aspect-square overflow-hidden cursor-zoom-in"
               >
-                <img src={src} alt="Lifestyle" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                <img src={item.thumb} alt={`Lifestyle ${idx + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
               </a>
             </SwiperSlide>
           ))}

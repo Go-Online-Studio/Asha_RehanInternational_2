@@ -25,13 +25,13 @@
 
 @layer utilities {
   .animate-marquee {
-    animation: marquee 30s linear infinite;
+    animation: marquee 60s linear infinite;
   }
 }
 
 @keyframes marquee {
   0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+  100% { transform: translateX(-100%); }
 }
 
 .swiper-custom-bullet {
@@ -64,4 +64,11 @@
 
 .swiper-pagination-fraction.hero-pagination, .swiper-pagination-custom.hero-pagination, .swiper-horizontal > .swiper-pagination-bullets.hero-pagination, .swiper-pagination-bullets.swiper-pagination-horizontal.hero-pagination{
     bottom: 32px;
+}
+
+@media (max-width: 767px) {
+  .mobile-hide-nav .swiper-button-next,
+  .mobile-hide-nav .swiper-button-prev {
+    display: none !important;
+  }
 }

@@ -65,7 +65,7 @@ export default function About() {
       {/* Another big image */}
       <div className="w-full h-[50vh] overflow-hidden mb-16 relative">
         <img 
-          src="/images/homeProductDesc4.avif" 
+          src="/images/homeProductDesc4.webp" 
           alt="Outdoor lifestyle" 
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000"
         />

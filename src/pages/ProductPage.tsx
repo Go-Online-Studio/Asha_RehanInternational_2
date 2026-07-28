@@ -18,13 +18,19 @@ const productData: Record<string, any> = {
     tagline: 'Precision folding-arm motorized tension frames.',
     description: 'Our retractable awnings provide dynamic sun protection, seamlessly extending your indoor living spaces into the outdoors. Engineered with marine-grade aluminum and UV-resistant acrylic fabrics, they offer both aesthetic elegance and robust durability.',
     features: ['Motorized Operation', 'Sun & Wind Sensors', 'Custom Fabric Choices', 'Integrated LED Lighting'],
-    image: 'https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&q=80',
+    desktopImage: '/images/RetractableAwningsBanner.avif',
+    mobileImage: '/images/RetractableAwningsBannerMob.avif',
+    image: '/images/RetractableAwningsBanner.avif',
     gallery: [
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1510627498534-15e8d89cb2dd?auto=format&fit=crop&q=80'
+      '/images/ProductIntro1.webp',
+      '/images/Gallery/RetractableAwningsGallery1.webp',
+      '/images/Gallery/RetractableAwningsGallery2.webp',
+      '/images/Gallery/RetractableAwningsGallery3.webp',
+      '/images/Gallery/RetractableAwningsGallery4.webp',
+      '/images/Gallery/RetractableAwningsGallery5.webp',
+      '/images/Gallery/RetractableAwningsGallery6.webp',
+      '/images/Gallery/RetractableAwningsGallery7.webp',
+      '/images/Gallery/RetractableAwningsGallery8.webp',
     ]
   },
   'glazed-canopies': {
@@ -32,13 +38,19 @@ const productData: Record<string, any> = {
     tagline: 'Sculpted cantilever entrance protective shields.',
     description: 'Designed to make a lasting impression, our glazed and fabric canopies offer superior weather protection while enhancing architectural aesthetics. Perfect for commercial entrances, hotel lobbies, and luxury residences.',
     features: ['Tempered Glass Options', 'High-Tension PVC Fabrics', 'Custom Steel Frameworks', 'Weatherproof Seals'],
-    image: 'https://images.unsplash.com/photo-1510627498534-15e8d89cb2dd?auto=format&fit=crop&q=80',
+    desktopImage: '/images/GlazedAndFabricCanopiesBanner.avif',
+    mobileImage: '/images/GlazedAndFabricCanopiesBannerMob.avif',
+    image: '/images/GlazedAndFabricCanopiesBanner.avif',
     gallery: [
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&q=80'
+      '/images/ProductIntro2.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery1.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery2.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery3.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery4.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery5.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery6.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery7.webp',
+      '/images/Gallery/GlazedAndFabricCanopiesGallery8.webp',
     ]
   },
   'tensile-membranes': {
@@ -46,13 +58,19 @@ const productData: Record<string, any> = {
     tagline: 'Advanced hyperbolic engineered sailing shapes.',
     description: 'For expansive coverage and striking visual impact, our tensile membrane structures are unparalleled. Using advanced form-finding software and structural analysis, we create soaring hyperbolic paraboloids and cone structures.',
     features: ['PTFE & ETFE Materials', 'Wide-Span Coverage', 'Architectural Impact', 'High Wind Resistance'],
-    image: 'https://images.unsplash.com/photo-1506527716155-27a909fc72e8?auto=format&fit=crop&q=80',
+    desktopImage: '/images/TensileMembranesBanner.avif',
+    mobileImage: '/images/TensileMembranesBannerMob.avif',
+    image: '/images/TensileMembranesBanner.avif',
     gallery: [
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1510627498534-15e8d89cb2dd?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1599505877666-8975ed3527e0?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1524813686514-a57563d77965?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&q=80'
+      '/images/ProductIntro3.webp',
+      '/images/Gallery/TensileMembranesGallery1.webp',
+      '/images/Gallery/TensileMembranesGallery2.webp',
+      '/images/Gallery/TensileMembranesGallery3.webp',
+      '/images/Gallery/TensileMembranesGallery4.webp',
+      '/images/Gallery/TensileMembranesGallery5.webp',
+      '/images/Gallery/TensileMembranesGallery6.webp',
+      '/images/Gallery/TensileMembranesGallery7.webp',
+      '/images/Gallery/TensileMembranesGallery8.webp',
     ]
   },
   'gazebos-umbrellas': {
@@ -60,13 +78,17 @@ const productData: Record<string, any> = {
     tagline: 'Luxury garden frameworks & resort sails.',
     description: 'Elevate premium estates and resort landscapes with our heavy-duty side-pole umbrellas and custom gazebos. Designed for commercial durability but styled for luxury residential comfort.',
     features: ['360-Degree Rotation', 'Marine-Grade Masts', 'Water-Repellent Canvas', 'Minimalist Design'],
-    image: 'https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&q=80',
+    desktopImage: '/images/GazebosAndUmbrellasBanner.avif',
+    mobileImage: '/images/GazebosAndUmbrellasBannerMob.avif',
+    image: '/images/GazebosAndUmbrellasBanner.avif',
     gallery: [
-      'https://images.unsplash.com/photo-1599505877666-8975ed3527e0?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80'
+      '/images/ProductIntro4.webp',
+      '/images/Gallery/GazebosAndUmbrellasGallery1.webp',
+      '/images/Gallery/GazebosAndUmbrellasGallery2.webp',
+      '/images/Gallery/GazebosAndUmbrellasGallery3.webp',
+      '/images/Gallery/GazebosAndUmbrellasGallery4.webp',
+      '/images/Gallery/GazebosAndUmbrellasGallery5.webp',
+      '/images/Gallery/GazebosAndUmbrellasGallery6.webp',
     ]
   },
 };
@@ -95,7 +117,19 @@ export default function ProductPage() {
     <div className="pt-18 bg-brand-light">
       {/* Hero Section */}
       <div className="relative h-[80vh] md:h-screen min-h-[560px] w-full overflow-hidden">
-        <img src={product.image} alt={product.title} className="w-full h-full object-cover" />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            media="(max-width: 1024px) and (orientation: portrait)"
+            srcSet={product.mobileImage || product.image}
+          />
+          <img
+            src={product.desktopImage || product.image}
+            alt={product.title}
+            fetchPriority="high"
+            loading="eager"
+            className="w-full h-full object-cover object-center"
+          />
+        </picture>
         <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal via-brand-charcoal/40 to-transparent flex items-end pb-16 md:pb-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white w-full">
             <span className="uppercase tracking-widest text-sm md:text-base text-brand-green font-medium mb-4 block">Bespoke Solution</span>
@@ -241,7 +275,7 @@ export default function ProductPage() {
       {/* Final Full-width visual */}
       <div className="w-full h-[50vh] overflow-hidden relative">
         <img 
-          src={product.image} 
+          src='/images/CTA_Image.webp' 
           alt={product.title} 
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-1000 object-bottom"
         />
@@ -252,5 +286,5 @@ export default function ProductPage() {
       </div>
 
     </div>
-  );
+  ); 
 }

@@ -58,7 +58,7 @@ export default function Hero() {
               {/* Background Image */}
               <picture className="absolute inset-0 w-full h-full">
                 <source
-                  media="(max-width: 767px)"
+                  media="(max-width: 1024px) and (orientation: portrait)"
                   srcSet={slide.mobileImage}
                 />
                 <img

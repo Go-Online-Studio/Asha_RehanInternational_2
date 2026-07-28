@@ -8,7 +8,7 @@ export default function Products() {
         {/* Left Side Image */}
         <div className="w-1/2 relative h-full min-h-[600px] xl:min-h-[700px]">
           <img 
-            src="https://img.magnific.com/free-photo/beauty-park_1127-2277.jpg?t=st=1784028582~exp=1784032182~hmac=fe0c1b8fafb38212bf7df11ff29723de5f0e381f896f800ac4691ebc6298f6ff&w=1480" 
+            src="/images/Cliped1.webp" 
             alt="Intelligent Exterior Shading"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -40,7 +40,7 @@ export default function Products() {
       <div className="md:hidden flex flex-col w-full">
         <div className="w-full h-[400px]">
           <img 
-            src="https://img.magnific.com/free-photo/beauty-park_1127-2277.jpg?t=st=1784028582~exp=1784032182~hmac=fe0c1b8fafb38212bf7df11ff29723de5f0e381f896f800ac4691ebc6298f6ff&w=1480" 
+            src="/images/Cliped1.webp" 
             alt="Intelligent Exterior Shading"
             className="w-full h-full object-cover"
           />

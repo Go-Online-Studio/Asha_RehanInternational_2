@@ -67,7 +67,7 @@ ${formData.message}`;
       <div className="relative h-[45vh] md:h-[55vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-brand-charcoal/40 z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80" 
+          src="/images/ContactBanner.webp" 
           alt="Luxury Architecture" 
           className="absolute inset-0 w-full h-full object-cover scale-105"
         />
