@@ -32,7 +32,7 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mb-1">
         <div className="aspect-[4/3] overflow-hidden relative group">
            <img 
-              src="/images/Product3.webp" 
+              src="/images/Product3.avif" 
               alt="Engineering detail" 
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
             />
@@ -42,7 +42,7 @@ export default function About() {
         </div>
         <div className="aspect-[4/3] overflow-hidden relative group">
            <img 
-              src="/images/Product4.webp" 
+              src="/images/Product4.avif"  
               alt="Manufacturing" 
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
             />

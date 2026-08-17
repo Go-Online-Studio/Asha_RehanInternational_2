@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
@@ -37,20 +38,21 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* Newsletter Block */}
+      {/* Contact / Consultation CTA Block */}
       <div className="w-full bg-black text-white py-20 px-4 md:px-16 lg:px-24 min-h-[300px] flex items-center justify-center">
         <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between gap-12 pt-8">
           <h3 className="text-2xl md:text-4xl font-serif max-w-xl leading-tight">
-            Register to our newsletter to receive the latest news from Asha Smart Shades
+            Ready to design your bespoke architectural shading system?
           </h3>
           
-          <form className="flex w-full md:w-auto" onSubmit={(e) => e.preventDefault()}>
-            <div className="flex bg-brand-blue hover:bg-blue-600 transition-colors cursor-pointer">
-               <button type="submit" className="px-10 py-5 text-black text-sm font-bold tracking-widest flex items-center gap-4 uppercase">
-                 GO <span>&rarr;</span>
-               </button>
-            </div>
-          </form>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link 
+              to="/contact" 
+              className="bg-brand-blue hover:bg-blue-600 transition-colors px-10 py-5 text-white text-sm font-bold tracking-widest flex items-center justify-center gap-4 uppercase rounded-sm shadow-md"
+            >
+              Book Consultation <span>&rarr;</span>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

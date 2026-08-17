@@ -132,8 +132,8 @@ export default function ProductPage() {
         </picture>
         <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal via-brand-charcoal/40 to-transparent flex items-end pb-16 md:pb-28">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white w-full">
-            <span className="uppercase tracking-widest text-sm md:text-base text-brand-green font-medium mb-4 block">Bespoke Solution</span>
-            <h1 className="text-5xl md:text-8xl font-serif mb-6 font-light tracking-tight">{product.title}</h1>
+            <span className="uppercase tracking-widest text-sm md:text-base text-brand-green font-medium mb-2 md:mb-4 block">Bespoke Solution</span>
+            <h1 className="text-2xl md:text-8xl font-serif mb-4 md:mb-6 font-light tracking-tight">{product.title}</h1>
             <p className="text-xl md:text-3xl text-white/90 max-w-3xl font-light leading-relaxed">{product.tagline}</p>
           </div>
         </div>

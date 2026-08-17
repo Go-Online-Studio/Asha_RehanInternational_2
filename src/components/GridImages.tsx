@@ -16,14 +16,14 @@ export default function GridImages() {
     },
     {
       thumb: "/images/Product2.webp",
-      main: "/images/ProductMain2.webp"
+      main: "/images/ProductMain2.jpg"
     },
     {
-      thumb: "/images/Product3.webp",
-      main: "/images/ProductMain3.webp"
+      thumb: "/images/Product3.avif",
+      main: "/images/ProductMain3.jpg"
     },
     {
-      thumb: "/images/Product4.webp",
+      thumb: "/images/Product4.avif",
       main: "/images/ProductMain4.jpg"
     }
   ];

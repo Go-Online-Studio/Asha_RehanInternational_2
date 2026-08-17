@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Products() {
   return (
@@ -29,9 +30,12 @@ export default function Products() {
             </p>
           </div>
           <div className="mt-8">
-            <button className="bg-white text-gray-900 px-8 py-4 text-xs font-bold tracking-widest hover:bg-gray-100 transition-colors uppercase shadow-sm">
+            <Link 
+              to="/products/retractable-awnings" 
+              className="inline-block bg-white text-gray-900 px-8 py-4 text-xs font-bold tracking-widest hover:bg-gray-100 transition-colors uppercase shadow-sm"
+            >
               DISCOVER MORE
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -58,9 +62,12 @@ export default function Products() {
           </div>
           
           <div className="mt-8 flex justify-start w-full">
-            <button className="bg-white text-gray-900 px-8 py-4 text-xs font-bold tracking-widest hover:bg-gray-100 transition-colors uppercase shadow-sm">
+            <Link 
+              to="/products/retractable-awnings" 
+              className="inline-block bg-white text-gray-900 px-8 py-4 text-xs font-bold tracking-widest hover:bg-gray-100 transition-colors uppercase shadow-sm"
+            >
               DISCOVER MORE
-            </button>
+            </Link>
           </div>
         </div>
       </div>
