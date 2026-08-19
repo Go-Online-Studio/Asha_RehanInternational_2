@@ -22,7 +22,7 @@ export default function BlogPost() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-        <div className="aspect-[21/9] w-full overflow-hidden rounded-sm">
+        <div className="aspect-[4/3] w-full overflow-hidden rounded-md">
           <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
         </div>
       </div>

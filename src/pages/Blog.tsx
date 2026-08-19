@@ -8,7 +8,7 @@ export const blogPosts = [
     excerpt: 'Exploring how lightweight membrane structures are redefining modern architectural landscapes and offering sustainable shading solutions.',
     date: 'August 12, 2024',
     category: 'Architecture',
-    image: '/images/NewsBlog.webp',
+    image: '/images/BlogPost1.avif',
   },
   {
     id: 'choosing-right-awning-fabric',
@@ -16,7 +16,7 @@ export const blogPosts = [
     excerpt: 'A comprehensive guide to selecting between acrylic, polyester, and PVC-coated fabrics for maximum durability and UV protection.',
     date: 'July 28, 2024',
     category: 'Materials',
-    image: '/images/NewsBlog.webp',
+    image: '/images/BlogPost2.avif',
   },
   {
     id: 'bioclimatic-pergolas-explained',
@@ -24,7 +24,7 @@ export const blogPosts = [
     excerpt: 'Understanding the mechanics behind adjustable louvered roofs and how they create microclimates for year-round outdoor comfort.',
     date: 'July 15, 2024',
     category: 'Technology',
-    image: '/images/NewsBlog.webp',
+    image: '/images/BlogPost3.avif',
   },
   {
     id: 'wind-resistance-standards',
@@ -32,7 +32,7 @@ export const blogPosts = [
     excerpt: 'Why the Beaufort scale matters when engineering canopies and how Asha Industries ensures structural integrity during extreme weather.',
     date: 'June 30, 2024',
     category: 'Engineering',
-    image: '/images/NewsBlog.webp',
+    image: '/images/BlogPost4.avif',
   },
   {
     id: 'luxury-resort-shading-trends',
@@ -40,7 +40,7 @@ export const blogPosts = [
     excerpt: 'From minimalist side-pole umbrellas to expansive stretch tents, discover what high-end hospitality venues are adopting this year.',
     date: 'June 10, 2024',
     category: 'Design Trends',
-    image: '/images/NewsBlog.webp',
+    image: '/images/BlogPost5.avif',
   },
 ];
 
