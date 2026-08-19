@@ -7,8 +7,8 @@ export default function Projects() {
       {/* Background Image Container */}
       <div className="relative w-full min-h-[70vh] flex flex-col justify-end pb-32">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url("/images/ClipBack.webp")' }}
+          className="absolute inset-0 bg-cover bg-center bg-fixed bg-no-repeat"
+          style={{ backgroundImage: 'url("/images/ClipBack.avif")' }}
         />
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40" />

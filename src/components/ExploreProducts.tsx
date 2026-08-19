@@ -4,11 +4,6 @@ import { Link } from 'react-router-dom';
 
 const categories = [
   {
-    title: 'Gazebos & Umbrellas',
-    image: '/images/homeProductDesc1.webp',
-    link: '/products/gazebos-umbrellas'
-  },
-  {
     title: 'Retractable Awnings',
     image: '/images/homeProductDesc2.webp',
     link: '/products/retractable-awnings'
@@ -17,6 +12,11 @@ const categories = [
     title: 'Glazed & Fabric Canopies',
     image: '/images/homeProductDesc3.webp',
     link: '/products/glazed-canopies'
+  },
+  {
+    title: 'Gazebos & Umbrellas',
+    image: '/images/homeProductDesc1.webp',
+    link: '/products/gazebos-umbrellas'
   },
   {
     title: 'Tensile Membranes',
