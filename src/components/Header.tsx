@@ -42,10 +42,10 @@ export default function Header() {
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/about" className={navLinkClass}>About</Link>
           <div className="relative group cursor-pointer">
-            <span className={`${navLinkClass} flex items-center gap-1`}>
+            <button type="button" className={`${navLinkClass} flex items-center gap-1`}>
               Products <ChevronDown size={14} />
-            </span>
-            <div className="absolute top-full left-0 mt-2 w-56 bg-white shadow-xl rounded-sm opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col py-2 border border-brand-gray/20">
+            </button>
+            <div className="absolute top-full left-0 w-56 bg-white shadow-xl rounded-sm opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 flex flex-col py-2 border border-brand-gray/20">
               <Link to="/products/retractable-awnings" className="px-4 py-2 text-sm text-brand-charcoal hover:bg-brand-light transition-colors">Retractable Awnings</Link>
               <Link to="/products/glazed-canopies" className="px-4 py-2 text-sm text-brand-charcoal hover:bg-brand-light transition-colors">Glazed & Fabric Canopies</Link>
               <Link to="/products/tensile-membranes" className="px-4 py-2 text-sm text-brand-charcoal hover:bg-brand-light transition-colors">Tensile Membranes</Link>
