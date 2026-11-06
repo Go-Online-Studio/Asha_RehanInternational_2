@@ -34,6 +34,10 @@
   100% { transform: translateX(-100%); }
 }
 
+/* Force standard hover and group-hover to work on touchscreens and Chrome */
+@custom-variant hover (&:hover);
+@custom-variant group-hover (.group:hover &);
+
 .swiper-custom-bullet {
   width: 6px;
   height: 6px;
